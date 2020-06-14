@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDEDED"
+        android:gravity="right"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/btn_join"
+            android:layout_width="33dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:text="JOIN"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/btn_login"
+            android:layout_width="27dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:text="LOGIN"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/btn_mypage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="MY PAGE"
+            android:clickable="true"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent">
+
+            </ImageView>
+
+        </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
